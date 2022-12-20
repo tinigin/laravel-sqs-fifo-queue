@@ -1,6 +1,6 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Support;
+namespace Tinigin\LaravelSqsFifoQueue\Support;
 
 use Illuminate\Support\Str as BaseStr;
 
@@ -30,22 +30,5 @@ class Str extends BaseStr
         }
 
         return static::substr($subject, 0, $pos);
-    }
-
-    /**
-     * Returns the portion of string specified by the start and length parameters.
-     *
-     * The substr method wasn't added to the Str class until Laravel 5.1.
-     * Add the implementation here to support older versions of Laravel.
-     *
-     * @param  string  $string
-     * @param  int  $start
-     * @param  int|null  $length
-     *
-     * @return string
-     */
-    public static function substr($string, $start, $length = null)
-    {
-        return mb_substr($string, $start, $length, 'UTF-8');
     }
 }

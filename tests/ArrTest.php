@@ -1,8 +1,8 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Tests;
+namespace Tinigin\LaravelSqsFifoQueue\Tests;
 
-use ShiftOneLabs\LaravelSqsFifoQueue\Support\Arr;
+use Tinigin\LaravelSqsFifoQueue\Support\Arr;
 
 class ArrTest extends TestCase
 {

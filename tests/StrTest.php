@@ -1,8 +1,8 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Tests;
+namespace Tinigin\LaravelSqsFifoQueue\Tests;
 
-use ShiftOneLabs\LaravelSqsFifoQueue\Support\Str;
+use Tinigin\LaravelSqsFifoQueue\Support\Str;
 
 class StrTest extends TestCase
 {

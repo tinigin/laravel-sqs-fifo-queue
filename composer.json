@@ -1,8 +1,8 @@
 {
-    "name": "shiftonelabs/laravel-sqs-fifo-queue",
+    "name": "tinigin/laravel-sqs-fifo-queue",
     "description": "Adds a Laravel queue driver for Amazon SQS FIFO queues.",
     "keywords": ["laravel", "lumen", "illuminate", "queue", "sqs", "fifo", "aws"],
-    "homepage": "https://github.com/shiftonelabs/laravel-sqs-fifo-queue",
+    "homepage": "https://github.com/tinigin/laravel-sqs-fifo-queue",
     "license": "MIT",
     "authors": [
         {
@@ -11,8 +11,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/shiftonelabs/laravel-sqs-fifo-queue/issues",
-        "source": "https://github.com/shiftonelabs/laravel-sqs-fifo-queue"
+        "issues": "https://github.com/tinigin/laravel-sqs-fifo-queue/issues",
+        "source": "https://github.com/tinigin/laravel-sqs-fifo-queue"
     },
     "require": {
         "php": ">=5.5.0",
@@ -26,17 +26,17 @@
         "phpunit/phpunit": "~4.0",
         "mockery/mockery": "~0.9",
         "squizlabs/php_codesniffer": "2.*",
-        "shiftonelabs/codesniffer-standard": "0.*",
+        "tinigin/codesniffer-standard": "0.*",
         "vlucas/phpdotenv": "~2.2"
     },
     "autoload": {
         "psr-4": {
-            "ShiftOneLabs\\LaravelSqsFifoQueue\\": "src/"
+            "Tinigin\\LaravelSqsFifoQueue\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ShiftOneLabs\\LaravelSqsFifoQueue\\Tests\\": "tests/"
+            "Tinigin\\LaravelSqsFifoQueue\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ShiftOneLabs\\LaravelSqsFifoQueue\\LaravelSqsFifoQueueServiceProvider"
+                "Tinigin\\LaravelSqsFifoQueue\\LaravelSqsFifoQueueServiceProvider"
             ]
         }
     }

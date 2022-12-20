@@ -1,6 +1,6 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Bus;
+namespace Tinigin\LaravelSqsFifoQueue\Bus;
 
 trait SqsFifoQueueable
 {

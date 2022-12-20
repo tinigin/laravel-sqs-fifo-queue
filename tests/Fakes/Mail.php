@@ -1,12 +1,12 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Tests\Fakes;
+namespace Tinigin\LaravelSqsFifoQueue\Tests\Fakes;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use ShiftOneLabs\LaravelSqsFifoQueue\Bus\SqsFifoQueueable;
+use Tinigin\LaravelSqsFifoQueue\Bus\SqsFifoQueueable;
 
 class Mail extends Mailable implements ShouldQueue
 {

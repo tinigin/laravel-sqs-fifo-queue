@@ -1,8 +1,8 @@
 <?php
 
-namespace ShiftOneLabs\LaravelSqsFifoQueue\Queue\Deduplicators;
+namespace Tinigin\LaravelSqsFifoQueue\Queue\Deduplicators;
 
-use ShiftOneLabs\LaravelSqsFifoQueue\Contracts\Queue\Deduplicator;
+use Tinigin\LaravelSqsFifoQueue\Contracts\Queue\Deduplicator;
 
 class Sqs implements Deduplicator
 {
